@@ -1,0 +1,41 @@
+{
+  "name": "palworld-api",
+  "version": "1.0.0",
+  "description": "TypeScript/Node.js client for the Palworld dedicated server REST API",
+  "author": "KJAyano",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KJAyano/palworld-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KJAyano/palworld-api/issues"
+  },
+  "homepage": "https://github.com/KJAyano/palworld-api#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "palworld",
+    "rest-api",
+    "palworld restapi",
+    "pal-restapi"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.3",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^5.5.0"
+  }
+}
