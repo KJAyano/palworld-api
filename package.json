@@ -5,7 +5,7 @@
   "author": "KJAyano",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KJAyano/palworld-api.git"
+    "url": "git+https://github.com/KJAyano/palworld-api.git"
   },
   "bugs": {
     "url": "https://github.com/KJAyano/palworld-api/issues"
